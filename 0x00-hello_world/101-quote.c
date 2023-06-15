@@ -1,14 +1,21 @@
-#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
 
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- *                followed by a new line, to standard error.
+ * main - Entry point
  *
- * Return: Always 1.
+ * Description: Prints a string to the standard error.
+ *
+ * Return: Always 1 (Error)
  */
-
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korper, 2015-10-19\n");
-	return (1);
+    const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+    size_t message_len = strlen(message);
+
+    // Write the message to the standard error using the write system call
+    write(STDERR_FILENO, message, message_len);
+
+    // Return 1 to indicate an error occurred
+    return 1;
 }
