@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * this function is for ALX SE Program
- * main: print f the required function
- * required is to print line below
- * return: Always return success (0)
+ * main - Entry point
+ *
+ * Description: Prints a string to the console.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
