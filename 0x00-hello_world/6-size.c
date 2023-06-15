@@ -1,7 +1,10 @@
-#include<stdio.h>
-/*This funtion is printing the size 
- * of different types of the C programming language
- * this function will always return success (0)*/
+#include <stdio.h>
+
+/**
+ * main - Entry point. Prints the size of various data types to the console.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 printf("Size of a char: %li byte(s)\n", sizeof(char));
