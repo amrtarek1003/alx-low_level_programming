@@ -2,7 +2,9 @@
 
 /**
  * this function is for ALX SE Program
+ * main : print f the required function
  * required is to print line below
+ * Return : Always return success (0)
  */
 int main(void)
 {
