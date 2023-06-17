@@ -1,3 +1,3 @@
-This is the Second task of C programming languaga 
+Feeling pretty well
 
-1- 0-positive_or_negative.c	Taking the source code of a program that generate a random number each time its execute
+Secong task in alx Software Engineering Program and this is second task for C programming language
