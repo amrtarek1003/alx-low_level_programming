@@ -1,19 +1,21 @@
 #include "main.h"
-
-/*Main - Entry point
- * Description: Print alpha letters
- * Return: Always True(0)
+/**
+ * print_alphabet - entry point
+ * Description - prints all alphabet, in lowercase, followed by a new line
+ * Return
  */
-
 void print_alphabet(void)
 {
-	char x = 'a';
+	char chr;
 
-		while(x <= 'z')
-		{
-			_putchar(x);
-			x++;
-		}
+	chr = 'a';
+
+	while (chr <= 'z')
+	{
+		_putchar(chr);
+		chr++;
+	}
+
 	_putchar('\n');
-	return(0);
 }
+
