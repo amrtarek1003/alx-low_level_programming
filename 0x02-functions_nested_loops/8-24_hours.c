@@ -1,9 +1,7 @@
 #include "main.h"
 
-/* main - Entry point
- * Description: print each minute incrimited by adding one more minute
- * int the clock starting from 00:00 to 23:59
- * Return: Always True(0)
+/**
+ * jack bauer- print every minute of the day
  */
 
 void jack_bauer(void)
