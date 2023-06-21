@@ -10,49 +10,51 @@
 
 void print_times_table(int n)
 {
-	int x =0;
-	int y =0;
+        int x =0;
+        int y =0;
 
-	if(n>15 || n<0)
-	{
-		return;
-	}
-	while(x <= n)
-	{
-		while(y <=n)
-		{
-				if(x*y<10)
-				{
-					_putchar(x*y + '0');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
+        if(n>15 || n<0)
+        {
+                return;
+        }
+        while(x <= n)
+        {
+                while(y <=n)
+                {
+                                if(x*y<10)
+                                {
+                                        _putchar(x*y + '0');
 					if(y != n)
-					{
-						_putchar(',');
-					}
-				}
-				if(x*y >= 10 && x*y<100)
-				{
-					_putchar(x*y/10 + '0');
+                                        {
+                                                _putchar(',');
+                                        }
+                                        _putchar(' ');
+                                        _putchar(' ');
+                                        _putchar(' ');
+                                }
+                                if(x*y >= 10 && x*y<100)
+                                {
+                                        _putchar(x*y/10 + '0');
 					_putchar((x*y)%10 + '0');
-					_putchar(' ');
-					_putchar(' ');
-					if(y != n)
-					{
-						_putchar(',');
-					}
-				}
-				if(x*y >= 100)
-				{
-					_putchar(x*y/100 + '0');
-					_putchar(((x*y)%100)/10	+'0');
+                                        if(y != n)
+                                        {
+                                                _putchar(',');
+                                        }
+                                        _putchar(' ');
+                                        _putchar(' ');
+                                }
+                                if(x*y >= 100)
+                                {
+                                        _putchar(x*y/100 + '0');
+					_putchar(((x*y)%100)/10 +'0');
 					_putchar((x*y)%10 + '0');
-					_putchar(' ');
+
+
 					if(y != n)
-					{
+                                        {
 						_putchar(',');
 					}
+					_putchar(' ');
 				}
 				y++;
 		}
