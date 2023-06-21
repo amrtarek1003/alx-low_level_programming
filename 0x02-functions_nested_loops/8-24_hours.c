@@ -29,7 +29,7 @@ void jack_bauer(void)
 			}
 			hour1++;
 			min2 = 0;
-			if (hour2 == 2 && hour1 == 4) 
+			if (hour2 == 2 && hour1 == 4)
 				break;
 		}
 		hour2++;
