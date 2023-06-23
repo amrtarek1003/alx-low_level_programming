@@ -2,7 +2,8 @@
 
 /**
  * main - tests function that prints if integer is positive or negative
- * Return: 0
+ * Return: 0 - Always Ture
+ * positive_or_negative - print positiveor negative or zero
  */
 
 int main(void)
