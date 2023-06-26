@@ -4,7 +4,7 @@
  * swap_int - This function swap the variables that two pointers point to
  *
  * @a: pointer a that point to variable a
- * 
+ *
  * @b: pointer a that point to variable b
  */
 
